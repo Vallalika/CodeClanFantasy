@@ -20,7 +20,6 @@ public class Cleric extends Player{
         this.healingTool = healingTool;
     }
 
-
     public void heal(Player player) {
         if (player.getCurrentHp() + healingTool.getHealPoints() <= maxHp){
             player.setCurrentHp(player.getCurrentHp() + healingTool.getHealPoints());

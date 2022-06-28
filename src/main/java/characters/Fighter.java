@@ -8,6 +8,7 @@ public class Fighter extends Player{
     public Fighter(String name, int currentHp, int lootValue) {
         super(name, currentHp, lootValue);
         this.weapon = Weapon.SWORD;
+        this.maxHp = 500;
         this.armourValue = 25;
     }
 
